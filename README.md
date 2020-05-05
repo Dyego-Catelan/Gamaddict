@@ -1,2 +1,2 @@
 # Gamaddict
-A web site for games
+A web site for gamers
