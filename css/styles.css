@@ -60,12 +60,6 @@ img {
     align-items: baseline;
 }
 
-@media (max-width: 300px) {
-    .columns {
-        flex-direction: column;
-    }
-}
-
 .col {
     /* text-align: justify; */
 }
@@ -82,7 +76,17 @@ img {
     width: 70%;
 }
 
-@media (max-width: 300px) {
+.col-bg {
+    background-color: #212614;
+    color: #fff;
+    padding: .5em;
+    border-radius: 2%;
+}
+
+@media (max-width: 500px) {
+    .columns {
+        flex-direction: column;
+    }
 
     .col-1,
     .col-2,
@@ -90,11 +94,4 @@ img {
         width: 100%;
         text-align: justify;
     }
-}
-
-.col-bg {
-    background-color: #212614;
-    color: #fff;
-    padding: .5em;
-    border-radius: 2%;
 }
