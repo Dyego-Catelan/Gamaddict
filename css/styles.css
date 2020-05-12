@@ -60,7 +60,7 @@ img {
     align-items: baseline;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 300px) {
     .columns {
         flex-direction: column;
     }
@@ -82,7 +82,7 @@ img {
     width: 70%;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 300px) {
 
     .col-1,
     .col-2,
